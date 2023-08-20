@@ -15,7 +15,7 @@ const NavBar = () => {
           <Nav style={{ marginLeft:"auto", marginRight:"auto"}} className="me-auto ">
             <Nav.Link className='link' href="/">Home</Nav.Link>
             <Nav.Link href="/about">About</Nav.Link>
-            <Nav.Link href="#link">Models</Nav.Link>
+            <Nav.Link href="/models">Models</Nav.Link>
             <Nav.Link href="#link">Testimonials</Nav.Link>
             <Nav.Link href="#link">Our Team</Nav.Link>
             <Nav.Link href="#link">Contact</Nav.Link>

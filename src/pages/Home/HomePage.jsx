@@ -7,6 +7,7 @@ import Banner2 from "../../components/util/Banner2"
 import ChooseUs from "../../components/Home/chooseUs"
 import ReviewSection from '../../components/Home/ReviewSection'
 import FAQ from '../../components/Home/FAQ'
+import Appbanner from '../../components/Home/Appbanner'
 
 const HomePage = () => {
   return (
@@ -20,7 +21,9 @@ const HomePage = () => {
     <ChooseUs/>
     <ReviewSection/>
     <FAQ/>
-
+    <Appbanner/>
+        
+      
     </div>
   )
 }

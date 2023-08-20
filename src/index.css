@@ -183,9 +183,15 @@ background-color: none;
   background-color: #A9A9A9	 !important;
   color: white;
 }
+.storePic{
+    max-width: 45%;}
 
+.storePic1{
+    max-width: 45%;
+    max-height:95px;
+}
+.mainBannerPic{
+    width: 100%;
+    opacity: 0.1;
+}
 
-
-/* .accordion-button:not(.collapsed) {
-  color: #212529;
-} */
