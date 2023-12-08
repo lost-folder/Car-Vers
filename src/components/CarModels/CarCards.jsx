@@ -5,19 +5,19 @@ import car1 from "../../../public/images/car1.png";
 import ReactStars from "react-rating-stars-component";
 import { FaCarSide } from "react-icons/fa";
 
-const CarCards = (props) => {
+const CarCards = ({Model , rate , price , transimission , fuel , IMG}) => {
   return (
     <Card style={{ width: "18rem" , height:"30rem" }}>
-      <Card.Img variant="top" src={car1} />
+      <Card.Img variant="top" src={IMG} />
       <Card.Body>
       <div className="cardCont">
         <Row >
           <Col sm="8" style={{ flexDirection: "column" }}>
-            <h5>Audi</h5>
+            <h5>{Model}</h5>
             <ReactStars count={5} size={24} value={5} edit={false} />
           </Col>
           <Col sm="4">
-            <h5>$45</h5>
+            <h5>{price}</h5>
             <p>PER DAY</p>
           </Col>
         </Row>
@@ -26,7 +26,7 @@ const CarCards = (props) => {
           <div className="cardGrid">
             <span  className="cardSpan">
               <FaCarSide size={20} />
-              &nbsp; Audi
+              &nbsp; {Model}
             </span>
          
             <span className="cardSpan" style={{ textAlign: "right" }}>
@@ -35,10 +35,10 @@ const CarCards = (props) => {
             </span>
             <span className="cardSpan" >
               <FaCarSide size={20} />
-              &nbsp;Manual
+              &nbsp;{transimission}
             </span>
             <span className="cardSpan" style={{ textAlign: "right"}}>
-             Petrol &nbsp;
+             {fuel} &nbsp;
               <FaCarSide size={20} />
 
             </span>
