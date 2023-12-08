@@ -2,7 +2,6 @@ import React from 'react'
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import {Button, Container} from 'react-bootstrap'
-import logo from '../../../public/images/logo.png'
 const NavBar = () => {
   return (
       <Navbar className="nav" expand="lg">
@@ -19,6 +18,7 @@ const NavBar = () => {
             <Nav.Link href="/testimonials">Testimonials</Nav.Link>
             <Nav.Link href="/ourteam">Our Team</Nav.Link>
             <Nav.Link href="/contact-us">Contact</Nav.Link>
+
           </Nav>
           <Nav>
             <Button style={{color:"red"}}>
