@@ -16,9 +16,9 @@ const NavBar = () => {
             <Nav.Link className='link' href="/">Home</Nav.Link>
             <Nav.Link href="/about">About</Nav.Link>
             <Nav.Link href="/models">Models</Nav.Link>
-            <Nav.Link href="#link">Testimonials</Nav.Link>
-            <Nav.Link href="#link">Our Team</Nav.Link>
-            <Nav.Link href="#link">Contact</Nav.Link>
+            <Nav.Link href="/testimonials">Testimonials</Nav.Link>
+            <Nav.Link href="/ourteam">Our Team</Nav.Link>
+            <Nav.Link href="/contact-us">Contact</Nav.Link>
           </Nav>
           <Nav>
             <Button style={{color:"red"}}>
